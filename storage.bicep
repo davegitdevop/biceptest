@@ -12,3 +12,5 @@ resource storageaccount 'Microsoft.Storage/storageAccounts@2021-02-01' = {
     name: sku
   }
 }
+
+output name string = storageaccount.name
